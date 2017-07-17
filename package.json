@@ -1,0 +1,69 @@
+{
+  "name": "kayac-html5-starter",
+  "version": "0.0.0",
+  "description": "kayac-html5-starter development.",
+  "main": "gulpfile.babel.js",
+  "engines": {
+    "node": ">=5.0.0"
+  },
+  "scripts": {
+    "start": "gulp",
+    "serve": "gulp serve",
+    "build": "gulp build",
+    "build-css": "gulp css",
+    "build-js": "gulp js",
+    "build-html": "gulp html"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "Kayac Inc.",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "6.3.*",
+    "babel-plugin-transform-inline-environment-variables": "^0.1.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-es2015": "6.3.*",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "7.2.*",
+    "bodymovin": "^4.6.10",
+    "browser-sync": "2.11.*",
+    "browserify": "12.0.*",
+    "git-rev": "^0.2.1",
+    "gulp": "git://github.com/gulpjs/gulp.git#4.0",
+    "gulp-env": "^0.4.0",
+    "gulp-pleeease": "2.0.*",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-glob": "^1.0.6",
+    "gulp-watch": "^4.3.8",
+    "gutil": "^1.6.4",
+    "node-sass-asset-functions": "^0.1.0",
+    "read-config": "2.0.*",
+    "reset.css": "^2.0.2",
+    "rev-logger": "1.1.1",
+    "vinyl-source-stream": "1.1.*",
+    "watchify": "^3.9.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ],
+    "plugins": [
+      "transform-object-rest-spread",
+      "transform-inline-environment-variables"
+    ]
+  },
+  "dependencies": {
+    "js-cookie": "^2.1.4",
+    "lodash": "^4.17.4",
+    "query-string": "^4.3.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
+    "react-router-dom": "^4.1.1",
+    "react-slick": "^0.14.6",
+    "react-transition-group": "1.x",
+    "redux": "^3.7.1"
+  }
+}
